@@ -6,13 +6,24 @@ public class Ball : MonoBehaviour
 
     private Rigidbody2D _rigidbody;
 
-    private void Awake() {
+    private void Awake() 
+    {
         _rigidbody = GetComponent<Rigidbody2D>();
     }
 
-    private void Start() {
-        AddStartingForce();
+    private void Start() 
+    {
+        ResetPosition();
     }
+
+    public void ResetPosition()
+        {
+            _rigidbody.position = Vector3.zero;
+            _rigidbody.velocity = Vector3.zero;
+
+            AddStartingForce();
+            
+        }
 
     private void AddStartingForce() {
         float x = Random.value < 0.5f ? -1.0f : 1.0f;
@@ -21,5 +32,13 @@ public class Ball : MonoBehaviour
         Vector2 direction = new Vector2(x, y);
         _rigidbody.AddForce(direction * this.speed);
     }
+
+    public void AddForce(Vector2 force)
+    {
+        _rigidbody.AddForce(force);
+    }
+
+    
+
 
 }
