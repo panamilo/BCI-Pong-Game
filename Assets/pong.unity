@@ -275,6 +275,7 @@ GameObject:
   - component: {fileID: 740533400}
   - component: {fileID: 740533399}
   - component: {fileID: 740533398}
+  - component: {fileID: 740533402}
   m_Layer: 0
   m_Name: BALL
   m_TagString: Untagged
@@ -324,7 +325,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0
   m_GravityScale: 0
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: da1c99373640fee44865ab06ec8df61e, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -395,6 +396,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &740533402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 740533397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48326d72ed3335e4e97bcbf45fd9ba64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 100
 --- !u!1 &827231608
 GameObject:
   m_ObjectHideFlags: 0
@@ -407,6 +421,7 @@ GameObject:
   - component: {fileID: 827231611}
   - component: {fileID: 827231610}
   - component: {fileID: 827231609}
+  - component: {fileID: 827231613}
   m_Layer: 0
   m_Name: PC PADDLE
   m_TagString: Untagged
@@ -455,7 +470,7 @@ Rigidbody2D:
   m_Mass: 0.5
   m_LinearDrag: 2
   m_AngularDrag: 0
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -527,6 +542,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &827231613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827231608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10b315dbc17338b40a153f58bd5b7416, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 12.2
+  ball: {fileID: 740533399}
 --- !u!1 &1127821080
 GameObject:
   m_ObjectHideFlags: 0
@@ -783,6 +812,7 @@ GameObject:
   - component: {fileID: 1714040200}
   - component: {fileID: 1714040199}
   - component: {fileID: 1714040198}
+  - component: {fileID: 1714040202}
   m_Layer: 0
   m_Name: PLAYER PADDLE
   m_TagString: Untagged
@@ -831,7 +861,7 @@ Rigidbody2D:
   m_Mass: 0.5
   m_LinearDrag: 2
   m_AngularDrag: 0
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -903,6 +933,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1714040202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1714040197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87a366c93b1bb05459fe852ac0e4e552, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10
 --- !u!1 &1731388234
 GameObject:
   m_ObjectHideFlags: 0
