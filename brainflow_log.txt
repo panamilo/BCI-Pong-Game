@@ -1,0 +1,24 @@
+[2024-04-19 19:50:08.331] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2024-04-19 19:50:08.331] [board_logger] [trace] Board object created 0
+[2024-04-19 19:50:08.331] [board_logger] [info] opening port \\.\COM3
+[2024-04-19 19:50:08.350] [board_logger] [trace] port \\.\COM3 is open
+[2024-04-19 19:50:08.351] [board_logger] [trace] set port settings
+[2024-04-19 19:50:08.351] [board_logger] [debug] sending v to the board
+[2024-04-19 19:50:09.384] [board_logger] [debug] sending d to the board
+[2024-04-19 19:50:10.606] [board_logger] [debug] sending x1060100Xx2060100X to the board
+[2024-04-19 19:50:11.822] [board_logger] [debug] sending b to the board
+[2024-04-19 19:51:53.084] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2024-04-19 19:51:53.084] [board_logger] [error] Board with id 0 and the same config already exists
+[2024-04-19 19:53:10.873] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2024-04-19 19:53:10.873] [board_logger] [error] Board with id 0 and the same config already exists
+[2024-04-19 19:54:16.174] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2024-04-19 19:54:16.174] [board_logger] [error] Board with id 0 and the same config already exists
+[2024-04-19 20:09:02.732] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2024-04-19 20:09:02.732] [board_logger] [trace] Board object created 0
+[2024-04-19 20:09:02.732] [board_logger] [info] opening port \\.\COM3
+[2024-04-19 20:09:02.751] [board_logger] [trace] port \\.\COM3 is open
+[2024-04-19 20:09:02.752] [board_logger] [trace] set port settings
+[2024-04-19 20:09:02.752] [board_logger] [debug] sending v to the board
+[2024-04-19 20:09:03.784] [board_logger] [debug] sending d to the board
+[2024-04-19 20:09:04.989] [board_logger] [debug] sending x1060100Xx2060100X to the board
+[2024-04-19 20:09:06.207] [board_logger] [debug] sending b to the board
