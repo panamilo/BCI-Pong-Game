@@ -1,7 +1,16 @@
 # bci_pong
 
-Main branch currently holds version 0.1
+This branch holds version 0.1
 
-For Documentation reasons next versions will each have its own branch.
+v0.1 is the base working version of the game
 
-Once final version is completed then a copy of main will be made to another branch called v0.1 and then the final version will be merged in main branch.
+Includes:
+
+1) Game Scene
+2) Player Paddle
+3) Ball
+4) Pc Paddle
+5) Wall limits
+6) Scripts for AI and Ball movement
+7) Script for Player Moving using BCI signals
+
