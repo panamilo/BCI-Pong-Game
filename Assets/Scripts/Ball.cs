@@ -11,7 +11,7 @@ public class Ball : MonoBehaviour
         _rigidbody = GetComponent<Rigidbody2D>();
     }
 
-    private void Start() 
+    public void StartBall() 
     {
         ResetPosition();
     }

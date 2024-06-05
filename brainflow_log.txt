@@ -1,0 +1,145 @@
+[2024-04-19 19:50:08.331] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2024-04-19 19:50:08.331] [board_logger] [trace] Board object created 0
+[2024-04-19 19:50:08.331] [board_logger] [info] opening port \\.\COM3
+[2024-04-19 19:50:08.350] [board_logger] [trace] port \\.\COM3 is open
+[2024-04-19 19:50:08.351] [board_logger] [trace] set port settings
+[2024-04-19 19:50:08.351] [board_logger] [debug] sending v to the board
+[2024-04-19 19:50:09.384] [board_logger] [debug] sending d to the board
+[2024-04-19 19:50:10.606] [board_logger] [debug] sending x1060100Xx2060100X to the board
+[2024-04-19 19:50:11.822] [board_logger] [debug] sending b to the board
+[2024-04-19 19:51:53.084] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2024-04-19 19:51:53.084] [board_logger] [error] Board with id 0 and the same config already exists
+[2024-04-19 19:53:10.873] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2024-04-19 19:53:10.873] [board_logger] [error] Board with id 0 and the same config already exists
+[2024-04-19 19:54:16.174] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2024-04-19 19:54:16.174] [board_logger] [error] Board with id 0 and the same config already exists
+[2024-04-19 20:09:02.732] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2024-04-19 20:09:02.732] [board_logger] [trace] Board object created 0
+[2024-04-19 20:09:02.732] [board_logger] [info] opening port \\.\COM3
+[2024-04-19 20:09:02.751] [board_logger] [trace] port \\.\COM3 is open
+[2024-04-19 20:09:02.752] [board_logger] [trace] set port settings
+[2024-04-19 20:09:02.752] [board_logger] [debug] sending v to the board
+[2024-04-19 20:09:03.784] [board_logger] [debug] sending d to the board
+[2024-04-19 20:09:04.989] [board_logger] [debug] sending x1060100Xx2060100X to the board
+[2024-04-19 20:09:06.207] [board_logger] [debug] sending b to the board
+[2024-05-22 15:20:33.672] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2024-05-22 15:20:33.673] [board_logger] [trace] Board object created 0
+[2024-05-22 15:20:33.673] [board_logger] [info] opening port \\.\COM3
+[2024-05-22 15:20:33.673] [board_logger] [error] Make sure you provided correct port name and have permissions to open it(run with sudo/admin). Also, close all other apps using this port.
+[2024-05-24 19:31:50.383] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2024-05-24 19:31:50.383] [board_logger] [trace] Board object created 0
+[2024-05-24 19:31:50.383] [board_logger] [info] opening port \\.\COM3
+[2024-05-24 19:31:50.401] [board_logger] [trace] port \\.\COM3 is open
+[2024-05-24 19:31:50.402] [board_logger] [trace] set port settings
+[2024-05-24 19:31:50.402] [board_logger] [debug] sending v to the board
+[2024-05-24 19:31:51.452] [board_logger] [debug] sending d to the board
+[2024-05-24 19:31:52.649] [board_logger] [debug] sending x1060100Xx2060100X to the board
+[2024-05-24 19:31:53.837] [board_logger] [debug] sending b to the board
+[2024-05-28 12:22:56.146] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2024-05-28 12:22:56.147] [board_logger] [trace] Board object created 0
+[2024-05-28 12:22:56.147] [board_logger] [info] opening port \\.\COM3
+[2024-05-28 12:22:56.147] [board_logger] [error] Make sure you provided correct port name and have permissions to open it(run with sudo/admin). Also, close all other apps using this port.
+[2024-05-28 12:23:38.525] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2024-05-28 12:23:38.525] [board_logger] [trace] Board object created 0
+[2024-05-28 12:23:38.525] [board_logger] [info] opening port \\.\COM3
+[2024-05-28 12:23:38.525] [board_logger] [error] Make sure you provided correct port name and have permissions to open it(run with sudo/admin). Also, close all other apps using this port.
+[2024-05-28 12:27:24.961] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2024-05-28 12:27:24.961] [board_logger] [trace] Board object created 0
+[2024-05-28 12:27:24.961] [board_logger] [info] opening port \\.\COM3
+[2024-05-28 12:27:24.961] [board_logger] [error] Make sure you provided correct port name and have permissions to open it(run with sudo/admin). Also, close all other apps using this port.
+[2024-05-28 12:27:40.998] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2024-05-28 12:27:40.998] [board_logger] [trace] Board object created 0
+[2024-05-28 12:27:40.998] [board_logger] [info] opening port \\.\COM3
+[2024-05-28 12:27:40.999] [board_logger] [error] Make sure you provided correct port name and have permissions to open it(run with sudo/admin). Also, close all other apps using this port.
+[2024-05-28 12:36:47.306] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2024-05-28 12:36:47.306] [board_logger] [trace] Board object created 0
+[2024-05-28 12:36:47.307] [board_logger] [info] opening port \\.\COM3
+[2024-05-28 12:36:47.307] [board_logger] [error] Make sure you provided correct port name and have permissions to open it(run with sudo/admin). Also, close all other apps using this port.
+[2024-05-28 12:38:36.018] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2024-05-28 12:38:36.018] [board_logger] [trace] Board object created 0
+[2024-05-28 12:38:36.018] [board_logger] [info] opening port \\.\COM3
+[2024-05-28 12:38:36.018] [board_logger] [error] Make sure you provided correct port name and have permissions to open it(run with sudo/admin). Also, close all other apps using this port.
+[2024-05-28 12:40:01.000] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2024-05-28 12:40:01.000] [board_logger] [trace] Board object created 0
+[2024-05-28 12:40:01.000] [board_logger] [info] opening port \\.\COM3
+[2024-05-28 12:40:01.000] [board_logger] [error] Make sure you provided correct port name and have permissions to open it(run with sudo/admin). Also, close all other apps using this port.
+[2024-05-28 12:46:38.464] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2024-05-28 12:46:38.464] [board_logger] [trace] Board object created 0
+[2024-05-28 12:46:38.464] [board_logger] [info] opening port \\.\COM3
+[2024-05-28 12:46:38.464] [board_logger] [error] Make sure you provided correct port name and have permissions to open it(run with sudo/admin). Also, close all other apps using this port.
+[2024-05-28 12:50:57.598] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2024-05-28 12:50:57.599] [board_logger] [trace] Board object created 0
+[2024-05-28 12:50:57.599] [board_logger] [info] opening port \\.\COM3
+[2024-05-28 12:50:57.599] [board_logger] [error] Make sure you provided correct port name and have permissions to open it(run with sudo/admin). Also, close all other apps using this port.
+[2024-05-28 12:51:20.699] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2024-05-28 12:51:20.699] [board_logger] [trace] Board object created 0
+[2024-05-28 12:51:20.700] [board_logger] [info] opening port \\.\COM3
+[2024-05-28 12:51:20.700] [board_logger] [error] Make sure you provided correct port name and have permissions to open it(run with sudo/admin). Also, close all other apps using this port.
+[2024-05-28 12:52:14.596] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2024-05-28 12:52:14.596] [board_logger] [trace] Board object created 0
+[2024-05-28 12:52:14.596] [board_logger] [info] opening port \\.\COM3
+[2024-05-28 12:52:14.596] [board_logger] [error] Make sure you provided correct port name and have permissions to open it(run with sudo/admin). Also, close all other apps using this port.
+[2024-05-28 12:59:20.770] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2024-05-28 12:59:20.770] [board_logger] [trace] Board object created 0
+[2024-05-28 12:59:20.770] [board_logger] [info] opening port \\.\COM3
+[2024-05-28 12:59:20.770] [board_logger] [error] Make sure you provided correct port name and have permissions to open it(run with sudo/admin). Also, close all other apps using this port.
+[2024-05-28 12:59:46.017] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2024-05-28 12:59:46.017] [board_logger] [trace] Board object created 0
+[2024-05-28 12:59:46.017] [board_logger] [info] opening port \\.\COM3
+[2024-05-28 12:59:46.017] [board_logger] [error] Make sure you provided correct port name and have permissions to open it(run with sudo/admin). Also, close all other apps using this port.
+[2024-05-28 13:02:00.941] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2024-05-28 13:02:00.941] [board_logger] [trace] Board object created 0
+[2024-05-28 13:02:00.941] [board_logger] [info] opening port \\.\COM3
+[2024-05-28 13:02:00.941] [board_logger] [error] Make sure you provided correct port name and have permissions to open it(run with sudo/admin). Also, close all other apps using this port.
+[2024-05-28 13:03:46.073] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2024-05-28 13:03:46.073] [board_logger] [trace] Board object created 0
+[2024-05-28 13:03:46.073] [board_logger] [info] opening port \\.\COM3
+[2024-05-28 13:03:46.073] [board_logger] [error] Make sure you provided correct port name and have permissions to open it(run with sudo/admin). Also, close all other apps using this port.
+[2024-05-28 13:09:29.799] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2024-05-28 13:09:29.799] [board_logger] [trace] Board object created 0
+[2024-05-28 13:09:29.799] [board_logger] [info] opening port \\.\COM3
+[2024-05-28 13:09:29.799] [board_logger] [error] Make sure you provided correct port name and have permissions to open it(run with sudo/admin). Also, close all other apps using this port.
+[2024-05-28 13:09:44.148] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2024-05-28 13:09:44.148] [board_logger] [trace] Board object created 0
+[2024-05-28 13:09:44.148] [board_logger] [info] opening port \\.\COM3
+[2024-05-28 13:09:44.148] [board_logger] [error] Make sure you provided correct port name and have permissions to open it(run with sudo/admin). Also, close all other apps using this port.
+[2024-05-28 13:18:44.638] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2024-05-28 13:18:44.639] [board_logger] [trace] Board object created 0
+[2024-05-28 13:18:44.639] [board_logger] [info] opening port \\.\COM3
+[2024-05-28 13:18:44.639] [board_logger] [error] Make sure you provided correct port name and have permissions to open it(run with sudo/admin). Also, close all other apps using this port.
+[2024-05-28 13:19:15.179] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2024-05-28 13:19:15.179] [board_logger] [trace] Board object created 0
+[2024-05-28 13:19:15.179] [board_logger] [info] opening port \\.\COM3
+[2024-05-28 13:19:15.179] [board_logger] [error] Make sure you provided correct port name and have permissions to open it(run with sudo/admin). Also, close all other apps using this port.
+[2024-05-28 13:19:40.145] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2024-05-28 13:19:40.145] [board_logger] [trace] Board object created 0
+[2024-05-28 13:19:40.145] [board_logger] [info] opening port \\.\COM3
+[2024-05-28 13:19:40.145] [board_logger] [error] Make sure you provided correct port name and have permissions to open it(run with sudo/admin). Also, close all other apps using this port.
+[2024-05-28 13:20:55.392] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2024-05-28 13:20:55.393] [board_logger] [trace] Board object created 0
+[2024-05-28 13:20:55.393] [board_logger] [info] opening port \\.\COM3
+[2024-05-28 13:20:55.393] [board_logger] [error] Make sure you provided correct port name and have permissions to open it(run with sudo/admin). Also, close all other apps using this port.
+[2024-05-28 13:21:59.367] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2024-05-28 13:21:59.368] [board_logger] [trace] Board object created 0
+[2024-05-28 13:21:59.368] [board_logger] [info] opening port \\.\COM3
+[2024-05-28 13:21:59.368] [board_logger] [error] Make sure you provided correct port name and have permissions to open it(run with sudo/admin). Also, close all other apps using this port.
+[2024-05-28 13:22:18.876] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2024-05-28 13:22:18.876] [board_logger] [trace] Board object created 0
+[2024-05-28 13:22:18.876] [board_logger] [info] opening port \\.\COM3
+[2024-05-28 13:22:18.876] [board_logger] [error] Make sure you provided correct port name and have permissions to open it(run with sudo/admin). Also, close all other apps using this port.
+[2024-05-28 13:26:16.872] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2024-05-28 13:26:16.872] [board_logger] [trace] Board object created 0
+[2024-05-28 13:26:16.872] [board_logger] [info] opening port \\.\COM3
+[2024-05-28 13:26:16.872] [board_logger] [error] Make sure you provided correct port name and have permissions to open it(run with sudo/admin). Also, close all other apps using this port.
+[2024-05-28 13:27:08.911] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2024-05-28 13:27:08.911] [board_logger] [trace] Board object created 0
+[2024-05-28 13:27:08.911] [board_logger] [info] opening port \\.\COM3
+[2024-05-28 13:27:08.911] [board_logger] [error] Make sure you provided correct port name and have permissions to open it(run with sudo/admin). Also, close all other apps using this port.
+[2024-05-28 13:28:36.799] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2024-05-28 13:28:36.799] [board_logger] [trace] Board object created 0
+[2024-05-28 13:28:36.799] [board_logger] [info] opening port \\.\COM3
+[2024-05-28 13:28:36.799] [board_logger] [error] Make sure you provided correct port name and have permissions to open it(run with sudo/admin). Also, close all other apps using this port.
+[2024-05-28 13:37:54.298] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2024-05-28 13:37:54.298] [board_logger] [trace] Board object created 0
+[2024-05-28 13:37:54.298] [board_logger] [info] opening port \\.\COM3
+[2024-05-28 13:37:54.298] [board_logger] [error] Make sure you provided correct port name and have permissions to open it(run with sudo/admin). Also, close all other apps using this port.
