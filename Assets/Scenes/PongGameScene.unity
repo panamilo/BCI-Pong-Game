@@ -1620,6 +1620,37 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   isTopWall: 1
+--- !u!1 &1909203207
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1909203208}
+  m_Layer: 0
+  m_Name: DIFFICULTYMANAGER
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1909203208
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1909203207}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -103610.44, y: 697462.9, z: -662.9237}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1962810032
 GameObject:
   m_ObjectHideFlags: 0
@@ -1717,3 +1748,4 @@ SceneRoots:
   - {fileID: 1386686736}
   - {fileID: 540721852}
   - {fileID: 171063774}
+  - {fileID: 1909203208}
