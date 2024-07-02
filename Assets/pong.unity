@@ -946,6 +946,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+  gameobject1: {fileID: 1714040197}
+  thres1: 1000
+  frame_cnt: 0
+  thres2: 2000
+  band_power_right_old: 100
 --- !u!1 &1731388234
 GameObject:
   m_ObjectHideFlags: 0
