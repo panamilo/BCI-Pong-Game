@@ -14,6 +14,22 @@ public static class GameData
         Hard
     }
 
+    // Enum to represent the control types
+    public enum Controls
+    {
+        Bci,
+        Arrows
+    }
+
+    public enum gameEnding
+    {
+        Win,
+        Lose,
+        Tie
+    }
+
     // Static variable to store the selected difficulty
     public static Difficulty selectedDifficulty = Difficulty.Easy;
+    public static Controls selectedControls = Controls.Bci;
+    public static gameEnding selectedEnding = gameEnding.Tie;
 }

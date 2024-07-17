@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class CountdownTimer : MonoBehaviour
 {
@@ -38,10 +39,19 @@ public class CountdownTimer : MonoBehaviour
             currentTime -= Time.deltaTime;
             UpdateTimerText();
         }
+        if(currentTime <= 0)
+        {
+            // Load the ending scene
+            SceneManager.LoadScene("EndingScene");
+        }
     }
 
     void UpdateTimerText()
     {
+        if(timerText == null)
+        {
+            return;
+        }
         int minutes = Mathf.FloorToInt(currentTime / 60);
         int seconds = Mathf.FloorToInt(currentTime % 60);
         timerText.text = string.Format("{0:00}:{1:00}", minutes, seconds);

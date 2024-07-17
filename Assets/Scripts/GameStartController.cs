@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameStartController : MonoBehaviour
 {
@@ -7,6 +8,7 @@ public class GameStartController : MonoBehaviour
     public GameObject Ball;
     public GameObject Timer;
     public GameObject Canvas;
+    public GameObject ScoreBoard;
 
     // Start is called before the first frame update
     void Start()
@@ -16,6 +18,7 @@ public class GameStartController : MonoBehaviour
         DisableComponents(ComputerPaddle);
         DisableComponents(Ball);
         DisableTimer();
+        DisableScoreBoard();
         HideCanvas();
     }
 
@@ -53,8 +56,11 @@ public class GameStartController : MonoBehaviour
     EnableComponents(Ball);
     EnableComponents(PlayerPaddle);
     EnableComponents(ComputerPaddle);
+    UpdateControls(GameData.selectedControls);
     EnableTimer();
+    EnableScoreBoard();
     ShowCanvas();
+
     
     }
 
@@ -68,6 +74,19 @@ public class GameStartController : MonoBehaviour
         else
         {
             Debug.LogError("Timer script not found!");
+        }
+    }
+
+    void DisableScoreBoard()
+    {
+        ScoreBoard scoreBoardScript = ScoreBoard.GetComponent<ScoreBoard>();
+        if (scoreBoardScript != null)
+        {
+            scoreBoardScript.enabled = false;
+        }
+        else
+        {
+            Debug.LogError("scoreBoard script not found!");
         }
     }
 
@@ -94,24 +113,59 @@ public class GameStartController : MonoBehaviour
         }
     }
 
+    void EnableScoreBoard()
+    {
+        ScoreBoard scoreBoardScript = ScoreBoard.GetComponent<ScoreBoard>();
+        if (scoreBoardScript != null)
+        {
+            scoreBoardScript.enabled = true;
+        }
+        else
+        {
+            Debug.LogError("scoreBoard script not found!");
+        }
+    }
+     void UpdateControls(GameData.Controls selectedControls)
+    {
+        PlayerPaddleArrowKeys PlayerPaddleArrowKeysScript = PlayerPaddle.GetComponent<PlayerPaddleArrowKeys>();
+        PlayerPaddle PlayerPaddleScript = PlayerPaddle.GetComponent<PlayerPaddle>();
+         switch (selectedControls)
+        {
+            case GameData.Controls.Bci:
+                PlayerPaddleScript.enabled = true;
+                PlayerPaddleArrowKeysScript.enabled = false;
+                Debug.Log("BCI");
+                break;
+            case GameData.Controls.Arrows:
+                PlayerPaddleScript.enabled = false;
+                PlayerPaddleArrowKeysScript.enabled = true;
+                Debug.Log("Arrows");
+                break;
+            default:
+                PlayerPaddleScript.enabled = true;
+                PlayerPaddleArrowKeysScript.enabled = false;
+                Debug.Log("Default");
+                break;
+        }
+    }
     void handleDifficulty(Ball ballScript, ComputerPaddle computerPaddleScript){
     Debug.Log("Selected Difficulty: " + GameData.selectedDifficulty);
     switch (GameData.selectedDifficulty)
     {
         case GameData.Difficulty.Easy:
-            ballScript.speed = 80.0f;
-            computerPaddleScript.ComputerPaddleSpeed = 3.0f;
-            computerPaddleScript.reactionDelay = 1.0f;
+            ballScript.speed = 110.0f;
+            computerPaddleScript.ComputerPaddleSpeed = 2.5f;
+            computerPaddleScript.reactionDelay = 3.0f;
             break;
         case GameData.Difficulty.Medium:
             ballScript.speed = 200.0f;
             computerPaddleScript.ComputerPaddleSpeed = 8.0f;
-            computerPaddleScript.reactionDelay = 0.5f;
+            computerPaddleScript.reactionDelay = 1.5f;
             break;
         case GameData.Difficulty.Hard:
-            ballScript.speed = 2000.0f;
-            computerPaddleScript.ComputerPaddleSpeed = 15.0f;
-            computerPaddleScript.reactionDelay = 0.1f;
+            ballScript.speed = 400.0f;
+            computerPaddleScript.ComputerPaddleSpeed = 14.0f;
+            computerPaddleScript.reactionDelay = 0.5f;
             break;
     }    
 }
@@ -138,5 +192,27 @@ public class GameStartController : MonoBehaviour
         // For example, enable scripts that control movement
     }
 
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Debug.Log("Escape key pressed");
+            HandleEscapeKey();
+        }
+    }
 
+    private void HandleEscapeKey()
+    {
+        string currentSceneName = SceneManager.GetActiveScene().name;
+        if (currentSceneName == "PongGameScene")
+        {
+            #if UNITY_EDITOR
+            // If in the editor, stop playing the scene
+            UnityEditor.EditorApplication.isPlaying = false;
+        #else
+            // If in a built game, quit the application
+            Application.Quit();
+        #endif
+        }
+    }
 }

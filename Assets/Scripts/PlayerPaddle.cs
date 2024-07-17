@@ -116,6 +116,21 @@ public class PlayerPaddle : Paddle
             _rigidbody.AddForce(_direction * this.speed);
         }    
     }
+ private void OnDestroy()
+    {
+        if (board_shim != null)
+        {
+            try
+            {
+                board_shim.release_session();
+            }
+            catch (BrainFlowError e)
+            {
+                Debug.Log(e);
+            }
+            Debug.Log("Brainflow streaming was stopped");
+        }
+    }
 }
 
  
