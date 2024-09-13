@@ -53,7 +53,7 @@ public class HomeScreenManager : MonoBehaviour
                     GameStartController gameStartController = obj.GetComponent<GameStartController>();
                     if (gameStartController != null)
                     {
-                        gameStartController.StartGame();
+                        gameStartController.RunCalibration();
                     }
                     break;
                 }

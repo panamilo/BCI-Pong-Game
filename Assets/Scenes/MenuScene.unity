@@ -2715,10 +2715,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u2022 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-    rutrum turpis at hendrerit eleifend. Sed elementum a nisl in faucibus. Nullam
-    vitae tortor at enim dignissim facilisis. Fusce suscipit, magna ac maximus fermentum,
-    augue sem fermentum felis, pellentesque tristique velit urna quis nisl. "
+  m_Text: "Welcome to BCI-Pong, Use your hands to move the paddle in order to hit
+    the ball back and forth, and try to score by getting the ball past your opponent.
+    Keep your reflexes sharp and stay focused\u2014every point counts!\n\nThe game
+    ends when the set time limit or score limit is reached. The player with the highest
+    score wins!\n\nNOTE: Before you start playing you have to calibrate the movement
+    thresholds if you are using the BCI."
 --- !u!222 &950752473
 CanvasRenderer:
   m_ObjectHideFlags: 0

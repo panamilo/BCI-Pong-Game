@@ -6,6 +6,9 @@ public static class GameData
     public static float timerValue = 3; // Default value, you can set this to any initial value you want
     public static float scoreLimiterValue = 3;
 
+    public static float thresholdRight = 1000f;
+    public static float thresholdLeft = 1000f;
+
     // Enum to represent the difficulty levels
     public enum Difficulty
     {
@@ -27,6 +30,8 @@ public static class GameData
         Lose,
         Tie
     }
+
+
 
     // Static variable to store the selected difficulty
     public static Difficulty selectedDifficulty = Difficulty.Easy;

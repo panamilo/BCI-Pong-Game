@@ -9,6 +9,7 @@ public class GameStartController : MonoBehaviour
     public GameObject Timer;
     public GameObject Canvas;
     public GameObject ScoreBoard;
+    public GameObject calibrationManager;
 
     // Start is called before the first frame update
     void Start()
@@ -36,10 +37,21 @@ public class GameStartController : MonoBehaviour
         // For example, disable scripts that control movement
     }
 
+    public void RunCalibration(){
+        CalibrationSettings calibrationSettingsScript = calibrationManager.GetComponent<CalibrationSettings>();
+        if (calibrationSettingsScript != null)
+        {
+            calibrationSettingsScript.StartCalibration();
+        }
+        else
+        {
+            Debug.LogError("CalibrationSettings script not found!");
+        }
+        //wait 60 seconds and call StartGame
+        Invoke("StartGame", 60.0f);
+    }
     public void StartGame()
 {
-
-    // Enable movement/physics components on paddles and ball
     
     Ball ballScript = Ball.GetComponent<Ball>();
     ComputerPaddle computerPaddleScript = ComputerPaddle.GetComponent<ComputerPaddle>();

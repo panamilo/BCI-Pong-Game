@@ -722,8 +722,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 15, y: 100}
-  m_SizeDelta: {x: 600, y: 200}
+  m_AnchoredPosition: {x: 15, y: 0}
+  m_SizeDelta: {x: 600, y: 400}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1112069482
 MonoBehaviour:
@@ -758,10 +758,13 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u2022 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-    rutrum turpis at hendrerit eleifend. Sed elementum a nisl in faucibus. Nullam
-    vitae tortor at enim dignissim facilisis. Fusce suscipit, magna ac maximus fermentum,
-    augue sem fermentum felis, pellentesque tristique velit urna quis nisl. "
+  m_Text: "Well Played!\n\nRegardless of the outcome, each game is an opportunity
+    to improve. Here are some tips to help you do better next time: \n\n- Keep an
+    eye on the ball's trajectory and position yourself early to intercept it. Quick
+    reactions are crucial!\n\n- Aim to make small, controlled movements with your
+    paddle. This will help you better respond to fast-paced rallies.\n\n- To improve
+    control, practice activating the specific muscles used in the game. Stronger,
+    more consistent muscle signals will give you finer control over the paddle."
 --- !u!222 &1112069483
 CanvasRenderer:
   m_ObjectHideFlags: 0
